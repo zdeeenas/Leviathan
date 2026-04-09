@@ -129,3 +129,7 @@ is_system_service = False
 info_tags = 
 	desc=AFC Klipper Add On
 
+[spoolman]
+server = http://localhost:7912
+sync_rate = 5
+
