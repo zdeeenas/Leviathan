@@ -3,7 +3,7 @@ set -e
 
 # === Configuration ===
 DB_PATH="/home/pi/spoolman/data/spoolman.db"
-REPO_DIR="/home/pi/.local/share/spoolman"
+REPO_DIR="/home/pi/printer_data/config"
 TARGET_DB="$REPO_DIR/spoolman.db"
 
 echo "=== BACKUP START ==="
