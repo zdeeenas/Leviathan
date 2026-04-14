@@ -133,3 +133,10 @@ info_tags =
 server = http://localhost:7912
 sync_rate = 5
 
+[update_manager update_klipper_and_mcus]
+type = git_repo
+primary_branch = main
+path = ~/ukam
+origin = https://github.com/fbeauKmi/update_klipper_and_mcus.git
+is_system_service = False
+
