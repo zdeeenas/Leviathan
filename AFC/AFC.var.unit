@@ -11,7 +11,7 @@
             "map": "T0",
             "load": true,
             "prep": true,
-            "tool_loaded": true,
+            "tool_loaded": false,
             "loaded_to_hub": true,
             "material": "ASA-CF",
             "density": 1.06,
@@ -25,9 +25,9 @@
             "extruder_temp": 270,
             "bed_temp": 100,
             "runout_lane": null,
-            "filament_status": "In Tool",
-            "filament_status_led": "#0000ff",
-            "status": "Tooled",
+            "filament_status": "Ready",
+            "filament_status_led": "#00cc00",
+            "status": "Loaded",
             "dist_hub": 140.22,
             "td1_data": {},
             "endstops": "load,hub,tool_start,tool_end,buffer_advance,buffer_trailing,lane1_prep,lane1_load"
@@ -53,13 +53,13 @@
             "remember_spool": false,
             "spool_id": 59,
             "color": "#7c7e81",
-            "weight": 529.6773575195813,
+            "weight": 338.17689109541055,
             "extruder_temp": 240,
             "bed_temp": 100,
             "runout_lane": null,
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "Loaded",
+            "status": "None",
             "dist_hub": 74.92,
             "td1_data": {},
             "endstops": "load,hub,tool_start,tool_end,buffer_advance,buffer_trailing,lane2_prep,lane2_load"
@@ -85,7 +85,7 @@
             "remember_spool": false,
             "spool_id": 60,
             "color": "#000000",
-            "weight": 589.7101077312234,
+            "weight": 521.0503436185691,
             "extruder_temp": 220,
             "bed_temp": 60,
             "runout_lane": null,
@@ -130,17 +130,17 @@
         }
     },
     "system": {
-        "current_load": "lane1",
+        "current_load": null,
         "num_units": 1,
         "num_lanes": 4,
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": "lane1"
+                "lane_loaded": null
             }
         },
         "bypass": {
-            "enabled": 0
+            "enabled": 1
         }
     }
 }
