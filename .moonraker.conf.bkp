@@ -150,3 +150,12 @@ virtualenv = ~/mobileraker-env
 requirements = scripts/mobileraker-requirements.txt
 install_script = scripts/install.sh
 
+[chordata_web]
+
+[update_manager chordata]
+type = git_repo
+path = /home/pi/Chordata
+origin = https://github.com/HydrateFrequently/Chordata.git
+primary_branch = main
+managed_services = klipper moonraker
+
