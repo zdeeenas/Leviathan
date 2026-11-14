@@ -1,0 +1,43 @@
+{
+  "status": "restarted",
+  "service": "moonraker.service",
+  "config": "/home/pi/printer_data/config/moonraker.conf",
+  "instance": "8ea8cc609e52a62d",
+  "registration_sha256": "f63431c5195b0eb4e97359b265fd461449a8bea1636595d30e0f09942e214dc6",
+  "identity": {
+    "instance": {
+      "config": "/home/pi/printer_data/config/moonraker.conf",
+      "data": "/home/pi/printer_data",
+      "socket": "/home/pi/printer_data/comms/klippy.sock",
+      "pid": 2261,
+      "start_time": "92121",
+      "service": "moonraker.service",
+      "service_scope": "system",
+      "argv": [
+        "/home/pi/moonraker-env/bin/python",
+        "-m",
+        "moonraker"
+      ],
+      "cwd": "/",
+      "path_environment": {
+        "HOME": "/home/pi",
+        "MOONRAKER_DATA_PATH": "/home/pi/printer_data"
+      },
+      "owner_home": "/home/pi"
+    },
+    "unit": {
+      "Id": "moonraker.service",
+      "ExecStart": "{ path=/home/pi/moonraker-env/bin/python ; argv[]=/home/pi/moonraker-env/bin/python $MOONRAKER_ARGS ; ignore_errors=no ; start_time=[Sat 2026-11-14 21:47:38 CET] ; stop_time=[n/a] ; pid=2261 ; code=(null) ; status=0/0 }",
+      "WorkingDirectory": "",
+      "FragmentPath": "/etc/systemd/system/moonraker.service",
+      "DropInPaths": "/etc/systemd/system/moonraker.service.d/override.conf",
+      "User": "pi",
+      "Group": "",
+      "Environment": "",
+      "EnvironmentFiles": "/home/pi/printer_data/systemd/moonraker.env (ignore_errors=no)",
+      "MainPID": "2261",
+      "InvocationID": "8675533a0fe3425aa007faea09c6afd3",
+      "ActiveState": "active"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "config": "/home/pi/printer_data/config/printer.cfg",
+  "pid": 2270,
+  "previous_pid": 2075,
+  "repo": "/home/pi/klipper",
+  "restart_attempted": true,
+  "service": "klipper.service",
+  "start_time": "92147",
+  "status": "restarted",
+  "updated_utc": "2026-11-14T20:47:38.344878+00:00",
+  "version": 1
+}

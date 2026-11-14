@@ -159,3 +159,12 @@ origin = https://github.com/HydrateFrequently/Chordata.git
 primary_branch = main
 managed_services = klipper moonraker
 
+[update_manager accel_homing]
+type = git_repo
+channel = dev
+path = /home/pi/accel_homing
+origin = https://github.com/FrankRamm/accel_homing.git
+primary_branch = main
+is_system_service = False
+managed_services = klipper
+
