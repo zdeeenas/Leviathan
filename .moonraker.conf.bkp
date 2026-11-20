@@ -75,7 +75,7 @@ managed_services = sonar
 system_dependencies = resources/system-dependencies.json
 
 [update_manager klipper]
-channel = dev
+channel = stable
 
 [update_manager katapult]
 type = git_repo
